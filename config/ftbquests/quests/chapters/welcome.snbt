@@ -1,0 +1,263 @@
+{
+	autofocus_id: "27069A9A3CF76610"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: "ftbquests:book"
+	id: "75B907E92E498D42"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Step into &lThreads of Creation&r, a meticulously crafted Minecraft modpack that combines the mechanical brilliance of the Create mod with an immersive, realistic world. This is not just another adventure; it's a journey through a realm filled with stunning landscapes, intricate machinery, and boundless creativity."
+				""
+				"&l&6⚙ Mechanical Marvels&r&r"
+				"Dive deep into the Create mod and its numerous addons, where engineering brilliance and endless creativity converge. Build sprawling factories, design intricate contraptions, and innovate with revolutionary systems that redefine how you interact with the Minecraft world."
+				""
+				"&l&a🌿 A Vibrant, Living World&r&r"
+				"Immerse yourself in a realistic, dynamic environment teeming with life. From bustling meadows filled with grazing animals to serene forests alive with chirping birds and scurrying critters, every corner of this world feels alive and vibrant. A variety of passive creatures roam the landscape, each contributing to the ecosystem and enhancing the sense of immersion."
+				""
+				"&l&c🍖 Culinary Adventures&r&r"
+				"The culinary world in Threads of Creation is packed with a wide range of food mods that enhance your farming and cooking experience. Create automatic factories that produce chocolates, cookies, and other delicious treats using the oven multiblock and other specialized blocks. These systems make food production efficient, allowing you to sustain your journey and fuel your creative endeavors."
+				""
+				"&l&b📜 Quests and Progression&r&r"
+				"Embark on a series of thoughtfully designed quests that will guide you through the complexities of the Create mod while unveiling exciting crafting secrets and rewarding progression. These quests are tailored to help both new players and veterans by offering valuable tips and insights without restricting progression."
+				""
+				"Whether you're a tinkerer fascinated by mechanical engineering or an adventurer seeking a vibrant, realistic world to explore, Threads of Creation offers a perfect blend of innovation and immersion. Build towering factories, wander through dynamic landscapes, or simply lose yourself in the magic of this beautifully woven modpack."
+			]
+			id: "27069A9A3CF76610"
+			min_width: 400
+			rewards: [
+				{
+					id: "0076A3DC46667843"
+					item: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71613D2F754134EA"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E53EFAB57D0AED3"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20EF3F800F563188"
+					item: {
+						Count: 1
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6983AB7A18EC32CF"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Threads of Creation: Where ingenuity meets adventure in a breathtaking, living world."
+			tasks: [{
+				id: "7C988EBDA47090AA"
+				title: "Welcome to Threads of Creation"
+				type: "checkmark"
+			}]
+			title: "Welcome to Threads of Creation!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27069A9A3CF76610"]
+			description: [
+				"To share your quests with your friends, you need to create a team."
+				""
+				"You can handle your team from your inventory using the icon on the top-left corner or by the following commands:"
+				""
+				"To create a party:"
+				"&a/ftbteams party create&r &dPartyName&r"
+				""
+				"To invite your friends:"
+				"&b/ftbteams party invite&r &dPlayerName&r"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "467EF5D404A8E625"
+			min_width: 300
+			tasks: [{
+				id: "5DD0A8028752DEFC"
+				title: "Teams"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27069A9A3CF76610"]
+			description: [
+				"&aFTB Chunks&r allows you to claim chunks to protect your blocks."
+				""
+				"From the map click on &l&bFTBChunks Claiming Mode&r&r on the right, then &6left&r or &6right-click&r on the chunks within the bordered area toggle the protection on the selected chunks."
+				""
+				"&6Shift left&r or &6right-click&r on claimed chunks to toggle the forceloading."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/map"
+				}
+			}
+			id: "02503639106796DB"
+			min_width: 300
+			tasks: [{
+				id: "301E819AB4368532"
+				title: "Chunks Claiming / Loading"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27069A9A3CF76610"]
+			description: [
+				"&aSpice of Life: Carrot Edition&r keeps track of how many unique foods a player has eaten."
+				""
+				"As they pass certain milestone amounts of unique foods, they permanently gain new hearts, increasing their max health!"
+				""
+				"In order to max out their HP bars, players will have to quest for and craft exotic foods."
+			]
+			icon: "solcarrot:food_book"
+			id: "72FF40E51BD14F77"
+			min_width: 300
+			rewards: [{
+				id: "61AFFC3CC1D7EB2F"
+				item: "solcarrot:food_book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "097A08A3A8085527"
+				title: "A proper Diet"
+				type: "checkmark"
+			}]
+			title: "Food"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27069A9A3CF76610"]
+			description: [
+				"&aFTB Ultimine&r provides effective modes for harvesting multiple blocks at once."
+				""
+				"Simply hold the designated key to activate the mod which will render a &nwhite outline&r representing the zone you will mine."
+				""
+				"The &l&cUltimine Mode&r can be changed, if you scroll the mouse wheel while holding the designated key you can change the shape of this zone to find the one that suits you the best."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbultimine:item/ultiminer"
+				}
+			}
+			id: "116FE19365B34AA6"
+			tasks: [{
+				id: "697F4FEE150AD4FE"
+				title: "Ultimine"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27069A9A3CF76610"]
+			description: [
+				"&aEffortless Building&r makes building easier by providing tools like mirrors, arrays, build modes and a block randomizer."
+				""
+				"This mod features:"
+				"- Mirror blocks in realtime"
+				"- Build repeated sections quickly using arrays"
+				"- Place random blocks using the Randomizer Bag"
+				"- Quickly replace existing blocks (toggle with a key press)"
+				"- All of the above works in synergy"
+				"- Works in survival and creative mode"
+				""
+				"Switch build modes by holding &6ALT&r (this can be changed in the options)."
+			]
+			icon: "effortlessbuilding:building_techniques_book"
+			id: "600970FFA08142AB"
+			min_width: 300
+			tasks: [{
+				id: "71B36BD229A03C95"
+				title: "A proper Diet"
+				type: "checkmark"
+			}]
+			title: "Effortless Building"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27069A9A3CF76610"]
+			description: [
+				"Combat in Minecraft has never felt so dynamic! With &aBetter Combat&r, battles become more immersive, exciting, and skill-based."
+				""
+				"This mod introduces:"
+				"- &bFancy Attack Animations&r: Swing your weapons with style using one-handed, two-handed, or dual-wielding attack sequences."
+				"- &bAccurate Weapon Collisions&r: Hit enemies naturally with your weapon’s swing, no need to pixel-hunt with the cursor."
+				"- &bDual Wielding&r: Wield any combination of one-handed weapons for devastating alternating attacks."
+				"- &bTwo-Handed Weapons&r: Use powerful weapons that require both hands, disabling the offhand slot for authenticity."
+				""
+				"Try out different weapons, experiment with combos, and enjoy the thrill of precise weapon collision!"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5E77C368A46F5BB4"
+			min_width: 300
+			tasks: [{
+				id: "6DFEF2500DD38C95"
+				title: "A proper Diet"
+				type: "checkmark"
+			}]
+			title: "Effortless Building"
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+	title: "Welcome"
+}

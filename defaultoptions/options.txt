@@ -1,0 +1,2 @@
+resourcePacks:["vanilla","pointblank_resources","mod_resources","eatinganimations_compat","Moonlight Mods Dynamic Assets","file/FreshAnimations_v1.9.2.zip","file/JourneyMap Extended Mob Icons v2.0.zip","bushy_leaves","file/Create Storage Drawers.zip","file/Create-Energistics-1.1.1-mc1.20.1.zip","file/Create Immersive Aircrafts Resource Pack 1.20.1 - 2.0.zip","file/Eureka Create 1.1.zip"]
+incompatibleResourcePacks:["file/JourneyMap Extended Mob Icons v2.0.zip"]

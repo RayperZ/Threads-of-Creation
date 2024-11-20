@@ -1,0 +1,1003 @@
+{
+	autofocus_id: "045D286359BC9F7A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "point_blank"
+	group: ""
+	icon: "kinetic_pixel:firearmworktable"
+	id: "1FF561B40BFECE06"
+	images: [
+		{
+			click: "https://www.curseforge.com/minecraft/customization/kinetic-pixel"
+			height: 3.0d
+			hover: ["Open Curseforge Page"]
+			image: "create_another_adventure:textures/quests/kinetic_pixel/kinetic_pixel_banner.png"
+			rotation: 0.0d
+			width: 10.19469026548673d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.40625d
+			image: "create_another_adventure:textures/quests/kinetic_pixel/cr_series.png"
+			rotation: 0.0d
+			width: 3.75d
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			height: 1.40625d
+			image: "create_another_adventure:textures/quests/kinetic_pixel/st_series.png"
+			rotation: 0.0d
+			width: 3.75d
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			height: 1.40625d
+			image: "create_another_adventure:textures/quests/kinetic_pixel/x_series.png"
+			rotation: 0.0d
+			width: 3.75d
+			x: 5.0d
+			y: 12.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The &lFirearm Worktable&r is an essential tool for crafting firearms in this mod."
+				""
+				"To use it, you will need to supply Lava through any side of the block, a blueprint with the materials for creating the firearm and a redstone signal to start the process!"
+			]
+			id: "52E4B25164801B5E"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "This is just the beginning to start your own firearms factory!"
+			tasks: [{
+				id: "3CB4A6FB793D1E29"
+				item: "kinetic_pixel:firearmworktable"
+				type: "item"
+			}]
+			title: "Crafting Your Firearm"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["045D286359BC9F7A"]
+			description: [
+				"The &l&7ST Series&r uses pneumatic pressure to launch projectiles with incredible speed and accuracy."
+				""
+				"With a focus on engineering and mechanical ingenuity, these guns rely on compressed air to fire, offering a balanced mix of power and control. "
+				""
+				"Ideal for those who appreciate a reliable, efficient system with customizable attachments and enhanced versatility."
+			]
+			id: "0E757BC79C26B8C3"
+			rewards: [{
+				id: "23BD41CBF79C5EEA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56755567FEE2E931"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 32
+						}
+					}
+					id: "kinetic_pixel:pressurepoweredfirearmblueprint"
+					tag: {
+						Inventory: {
+							Items: [ ]
+							Size: 32
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "ST Series - Pneumatic Firearms"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["045D286359BC9F7A"]
+			description: [
+				"The &l&0X Series&r represents the cutting edge of firearm technology, combining unique experimental designs with cutting-edge mechanics."
+				""
+				"These firearms feature unconventional firing methods and offer unpredictable, high-risk, high-reward performance."
+				""
+				"Perfect for players seeking to explore new, innovative weapons that break traditional boundaries and offer something truly out of the ordinary."
+			]
+			id: "624BCA32B0476F6E"
+			rewards: [{
+				id: "3F75946B98453BF2"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5624FB2E5AA0EC47"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 32
+						}
+					}
+					id: "kinetic_pixel:laboratorialfirearmblueprint"
+					tag: {
+						Inventory: {
+							Items: [ ]
+							Size: 32
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "X Series - Experimental Firearms"
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["045D286359BC9F7A"]
+			description: [
+				"The &l&6CR Series&r&r is built around advanced heat-driven technology, harnessing intense thermal energy to power a range of firearms."
+				""
+				"Using specially engineered mechanisms, these guns convert heat into kinetic force, making them ideal for precise, high-powered shots."
+				""
+				"Expect strong recoil and impressive damage output, perfect for players who enjoy powerful, fast-paced combat."
+			]
+			id: "120BD0ABDCAE031C"
+			rewards: [{
+				id: "5B3A20990D764BDA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F6073D051B73B19"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 32
+						}
+					}
+					id: "kinetic_pixel:heatpoweredfirearmblueprint"
+					tag: {
+						Inventory: {
+							Items: [ ]
+							Size: 32
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "CR Series - Heat-Driven Firearms"
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["120BD0ABDCAE031C"]
+			description: [
+				"A highly customizable and flexible rifle, the &l&6CR-DEMEANOUR&r&r is designed to deliver high damage with a tailored shooting experience."
+				""
+				"Whether you need precision for long-range engagements or rapid fire for close-quarters combat, this rifle adapts to your every need. "
+				""
+				"From scopes to grips and nozzles, the &l&6CR-DEMEANOUR&r can be fine-tuned for maximum efficiency."
+				""
+				"This rifle is for players who demand both versatility and immense firepower—ready to handle any challenge with precision and might."
+			]
+			id: "4CFACCA49EA976F0"
+			rewards: [{
+				count: 4
+				id: "27F371F435402278"
+				item: "pointblank:whistle_max"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "721D0CEF5E02CBC8"
+				item: "pointblank:cr_demeanour"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["120BD0ABDCAE031C"]
+			description: [
+				"The true shotgun of the CR Series, the &l&6CR-FLEA&r is a close-quarters powerhouse built for sheer stopping power."
+				""
+				"Compact yet relentless, this heat-driven shotgun fires a spread of high-velocity projectiles, capable of clearing rooms or cutting down foes in a single blast."
+				""
+				"Despite its size, the &l&6CR-FLEA&r boasts impressive firepower, making it perfect for players who thrive in intense, up-close combat."
+			]
+			id: "4F4726DBB0BE9B5A"
+			rewards: [{
+				count: 4
+				id: "04400248EB04862A"
+				item: "pointblank:shrapnel"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7B9FAED8F6E18055"
+				item: "pointblank:cr_flea"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["120BD0ABDCAE031C"]
+			description: [
+				"Don’t be fooled by its diminutive size; the &l&6CR-JPOT&r is a powerful shotgun in the guise of a tiny pistol, delivering close-range devastation with a single squeeze."
+				""
+				"Concealed as a compact sidearm, this deceptive weapon unleashes a burst of heat-powered pellets that spread wide, ideal for overwhelming enemies in tight spaces."
+				""
+				"Perfect for players who like to keep their ace hidden until the last moment, this little powerhouse proves that good things come in small packages."
+			]
+			id: "2E0A2AD6B5077BCF"
+			rewards: [{
+				count: 4
+				id: "1EDA9207EB003B6D"
+				item: "pointblank:shrapnel"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "57B16C8E5A340D6A"
+				item: "pointblank:cr_jpot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["120BD0ABDCAE031C"]
+			description: [
+				"The &l&6CR-JPOT-II9&r brings versatility and capacity to the next level."
+				""
+				"Outfitted with an extended magazine, this pistol offers both single-fire precision and a burst-fire mode that releases a rapid trio of bullets, making it adaptable for any encounter."
+				""
+				"Compact yet formidable, the &l&6CR-JPOT-II9&r balances agility with high-impact firepower, making it the perfect sidearm for players who value both finesse and flexibility in the heat of battle."
+			]
+			id: "786399D4A83B2A81"
+			rewards: [{
+				count: 8
+				id: "11A85288787D9354"
+				item: "pointblank:whistle_nor"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3CCD61EBF15E07C6"
+				item: "pointblank:cr_jpot_ii9"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["120BD0ABDCAE031C"]
+			description: [
+				"Small but fierce, the &l&6CR-K80&r packs the heat-driven force of the CR Series into a compact, 5-round pistol."
+				""
+				"Its compact frame is easy to handle, ideal for quick-draw encounters or as a backup for larger firearms."
+				""
+				"Though it carries only five rounds, each one is loaded with intense kinetic energy, giving this pistol a punch well above its weight."
+				""
+				"For those who value agility without sacrificing stopping power, the &l&6CR-K80&r is the perfect choice."
+			]
+			id: "54C25CDC8878766B"
+			rewards: [{
+				count: 8
+				id: "42E73B7511E8772B"
+				item: "pointblank:whistle_nor"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7AE52565B7632666"
+				item: "pointblank:cr_k80"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["120BD0ABDCAE031C"]
+			description: [
+				"A bizarre and powerful outlier in the CR Series, this unconventional sniper rifle combines pinpoint accuracy with the coolness of a minigun. "
+				""
+				"Forgoing customizability, the &l&6CR-Meteor Fist&r is built purely for raw power, delivering intense telescoped rounds with devastating impact."
+				""
+				"Its unwieldy frame demands strength to handle, but in the right hands, it rains down with unstoppable force, almost like a meteor shower."
+				""
+				"Perfect for players who crave overwhelming firepower and aren’t afraid to stand their ground, the &l&6CR-Meteor Fist&r is a one-of-a-kind weapon that trades subtlety for sheer, explosive might!"
+			]
+			id: "2C33EC1F6B5C8464"
+			rewards: [{
+				count: 2
+				id: "02C4537C48F95B2A"
+				item: "pointblank:cased_telescoped_ammunition"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5956C09D5F881C40"
+				item: "pointblank:cr_meteor_fist"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["120BD0ABDCAE031C"]
+			description: [
+				"Compact yet formidable, the &l&6CR-SAR&r automatic pistol brings the heat-driven power of the CR Series to close-quarters combat."
+				""
+				"Designed for rapid, consistent fire, this sidearm combines speed with precision, making it a reliable choice for quick-draw engagements and high-mobility skirmishes."
+				""
+				"The &l&6CR-SAR&r is perfect for those who need a balance of agility and power in a lightweight, customizable package—ideal as a primary for stealth or as a backup in the heat of battle."
+			]
+			id: "2322B25A600E880F"
+			rewards: [{
+				count: 8
+				id: "4DCBA0446AA16D66"
+				item: "pointblank:whistle_nor"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "287C2C75D3AA6A39"
+				item: "pointblank:cr_sar"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["120BD0ABDCAE031C"]
+			description: [
+				"A versatile assault rifle in the CR Series, the &l&6CR-SHOCK&r expertly blends precision with rapid firepower."
+				""
+				"Equipped to handle Whistle-MAX ammo, this rifle delivers both controlled single shots and relentless automatic bursts, adapting seamlessly to any combat scenario."
+				""
+				"Built with heat-driven technology, it channels intense thermal energy to deliver rounds with impressive speed and impact, even in sustained firefights."
+			]
+			id: "48654B1D9D4FA145"
+			rewards: [{
+				count: 4
+				id: "67611278EBB43593"
+				item: "pointblank:whistle_max"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4A1303EF5F90221E"
+				item: "pointblank:cr_shock"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["120BD0ABDCAE031C"]
+			description: [
+				"A true powerhouse of the CR Series, this rocket launcher channels extreme thermal energy into devastating explosive rounds."
+				""
+				"Built for intense, high-impact strikes, the &l&6CR-SPEAR&r fires heat-charged projectiles with brutal precision, designed to penetrate and obliterate fortified targets."
+				""
+				"Its advanced heat-driven propulsion system may kick like a piston, but the rewards are immense: unmatched area damage and a fearsome presence on the battlefield."
+			]
+			id: "054D1C854E41B257"
+			rewards: [{
+				id: "0F08F0DC02616F4B"
+				item: "pointblank:rocket"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4F703737FE8B2422"
+				item: "pointblank:cr_spear"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0E757BC79C26B8C3"]
+			description: [
+				"A classic in both design and function, the &l&7ST-BECA&r is an old-fashioned double-shot shotgun that blends vintage style with modern pneumatic power."
+				""
+				"With its two powerful barrels, it fires two rounds at once with incredible force, capable of clearing rooms or obliterating foes at close range."
+				""
+				"Ideal for those who appreciate the thrill of a powerful, straightforward weapon, the &l&7ST-BECA&r delivers raw firepower in a sleek, nostalgic package."
+			]
+			id: "1403B495D19D8402"
+			rewards: [{
+				count: 4
+				id: "249AA41012363DAF"
+				item: "pointblank:shrapnel"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1B295B7FE1353E94"
+				item: "pointblank:st_beca"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0E757BC79C26B8C3"]
+			description: [
+				"A rapid-fire assault rifle that puts speed and precision at the forefront, the &l&7ST-RASWORD&r harnesses pneumatic pressure to deliver quick, accurate shots at incredible speeds."
+				""
+				"Its lightweight design makes it easy to handle in dynamic combat situations, while its smooth recoil ensures steady, controlled bursts in automatic mode."
+				""
+				"Whether you're engaging at mid-range or suppressing enemies with rapid fire, the &l&7ST-RASWORD&r excels in versatility, making it perfect for players who want to keep the pressure on without sacrificing power."
+			]
+			id: "295B099F53090ECB"
+			rewards: [{
+				count: 32
+				id: "50D5C631E0962F13"
+				item: "pointblank:dart"
+				random_bonus: 32
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7E4D48C42D6E3935"
+				item: "pointblank:st_rasword"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0E757BC79C26B8C3"]
+			description: [
+				"Don’t let its compact size fool you; the &l&7ST-SANDSTORM&r is a reliable, rapid-fire submachine gun that delivers pneumatic precision in a small package."
+				""
+				"Perfect for fast-moving players, the &l&7ST-SANDSTORM&r is designed for close-quarters combat with a high rate of fire and impressive accuracy."
+				""
+				"Its lightweight frame and smooth handling make it a breeze to maneuver, while its robust pneumatic system ensures consistent performance. "
+			]
+			id: "7D2BD036DC6A38D0"
+			rewards: [{
+				count: 32
+				id: "4F28C30943B0BC34"
+				item: "pointblank:dart"
+				random_bonus: 32
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "01B70FCC8134662C"
+				item: "pointblank:st_sandstorm"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0E757BC79C26B8C3"]
+			description: [
+				"A deadly precision rifle that combines pneumatic power with a mysterious energy pulse, the &l&7ST-SNAKESTRIKE&r is rumored to function like a railgun, delivering concentrated, high-speed projectiles with lethal accuracy."
+				""
+				"The rifle's unique charging mechanism requires the player to hold the shot, building pressure to unleash a devastating blast of force."
+				""
+				"For those who enjoy patience and precision, the &l&7ST-SNAKESTRIKE&r delivers a strike as lethal as the serpent it’s named after."
+			]
+			id: "387884EE2171BA49"
+			rewards: [{
+				count: 32
+				id: "04971FB273508CB0"
+				item: "pointblank:dart"
+				random_bonus: 32
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1FA6F99694EF6B2A"
+				item: "pointblank:st_snake_strike"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0E757BC79C26B8C3"]
+			description: [
+				"For those who like to keep firing without stopping, the &l&7ST-STIFLE&r is the ultimate pneumatic minigun, designed to minimize reloads and maximize destruction."
+				""
+				"With its multi-barrel system and rapid firing rate, the &l&7ST-STIFLE&r tears through enemies with relentless firepower, while the pneumatic design reduces the need for constant reloading."
+				""
+				"Whether you’re suppressing a large group or clearing a path through dense enemies, if you don’t want to stop shooting, the &7&lST-STIFLE&r won’t let you down."
+			]
+			id: "042E33BE1C1A1238"
+			rewards: [{
+				count: 32
+				id: "1808284962E31080"
+				item: "pointblank:dart"
+				random_bonus: 32
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "62BD69DA519839F9"
+				item: "pointblank:st_stifle"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["624BCA32B0476F6E"]
+			description: [
+				"An experimental powerhouse in the X Series, the &l&0X-BRUTE&r&r delivers unrelenting firepower with its 8-round capacity, designed to overwhelm enemies with sheer volume."
+				""
+				"Using cutting-edge pneumatic technology, each shell fires with devastating force, making it ideal for clearing rooms or blasting through barricades."
+				""
+				"Its experimental design pushes the boundaries of traditional shotguns, offering a high-risk, high-reward experience for players who like to take on multiple foes head-on."
+			]
+			id: "2F816FC069B139D7"
+			rewards: [{
+				count: 4
+				id: "4A7C76B460B0962B"
+				item: "pointblank:shrapnel"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "207FF757C6846178"
+				item: "pointblank:x_brute"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["624BCA32B0476F6E"]
+			description: [
+				"A railgun like no other, the &l&0X-CROSSTAR&r&r harnesses electromagnetic energy to launch projectiles at extraordinary speeds with unparalleled precision."
+				""
+				"Capable of piercing through even the toughest armor and obstacles, this experimental weapon offers devastating long-range strikes."
+				""
+				"While it’s a high-risk weapon, the rewards are immense—if you can handle its power, the &l&0X-CROSSTAR&r will make short work of anything that stands in your way."
+			]
+			id: "07DF8471A0EEA70C"
+			rewards: [{
+				count: 32
+				id: "4D9876A2F98FC108"
+				item: "pointblank:dart"
+				random_bonus: 32
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "09C527DA237EF07D"
+				item: "pointblank:x_cross_star"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["624BCA32B0476F6E"]
+			description: [
+				"A futuristic take on the double-barrel shotgun, the &l&0X-DILA&r combines speed and firepower for an explosive close-range weapon."
+				""
+				"Its experimental firing mechanism ensures a faster, more efficient shot cycle, allowing players to fires two rounds in a quick succession, delivering devastating impact while maintaining precision and control."
+				""
+				"Perfect for those who like their shotguns fast, furious, and packed with punch, the &l&0X-DILA&r offers an unpredictable, high-reward approach to combat."
+			]
+			id: "28AECD4D3F6F89A0"
+			rewards: [{
+				count: 4
+				id: "0E83814646066DBE"
+				item: "pointblank:whistle_max"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0562467D8CE670D3"
+				item: "pointblank:x_dila"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["624BCA32B0476F6E"]
+			description: [
+				"The &l&0X-GUARD&r sniper rifle is an experimental masterpiece, offering the perfect combination of long-range precision and cutting-edge mechanics."
+				""
+				"With a unique firing system that channels energy into each round, the &l&0X-GUARD&r can pierce even the toughest of targets with minimal deviation."
+				""
+				"It is a sniper rifle like no other, designed for players who demand innovation in their weapons."
+			]
+			id: "1AB300648012ABD2"
+			rewards: [{
+				count: 4
+				id: "7D81426B804EDEAE"
+				item: "pointblank:whistle_max"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "716D7D306B001021"
+				item: "pointblank:x_guard"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["624BCA32B0476F6E"]
+			description: [
+				"A truly innovative weapon, the &l&0X-MEDUSA&r is a shotgun that blends automatic fire with a unique charging system similar to that of a railgun."
+				""
+				"Unlike traditional shotguns, this shotgun charges before firing, releasing a series of high-powered rounds in rapid succession once fully charged."
+				""
+				"This high-risk, high-reward weapon offers both the fury of automatic fire and the power of a railgun, making it perfect for players who want to push the limits of shotgun technology."
+			]
+			id: "12CFA1B1A2A6D317"
+			rewards: [{
+				count: 32
+				id: "69FD3D1FB0E84A65"
+				item: "pointblank:dart"
+				random_bonus: 32
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1F74634C51F358D0"
+				item: "pointblank:x_medusa"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["624BCA32B0476F6E"]
+			description: [
+				"The &l&0X-SURGE&r is a compact and lightning-fast SMG that defies expectations with its high firepower and low profile."
+				""
+				"Its unconventional design pushes the boundaries of traditional SMGs, delivering explosive power in rapid bursts."
+				""
+				"Ideal for players who want a weapon that delivers overwhelming firepower in close combat, the &l&0X-SURGE&r is a force to be reckoned with—if you can handle its recoil."
+			]
+			id: "5DB0C83DE036C808"
+			rewards: [{
+				count: 8
+				id: "463D2045C7E936CD"
+				item: "pointblank:whistle_nor"
+				random_bonus: 8
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2472A3DEDA0941EB"
+				item: "pointblank:x_surge"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["52E4B25164801B5E"]
+			description: [
+				"&lGray Cotton Seeds&r can be obtained by harvesting wild Gray Cotton that grows in Savanna."
+				""
+				"Once obtained the seed they can be planted both indoors or outdoors with a brightness greater than 7."
+				""
+				"They need to be planted on &lCoarse Dirt&r."
+			]
+			id: "2EB60D8D0A6250F8"
+			rewards: [{
+				count: 2
+				id: "5D0FF49A4AAC5BF0"
+				item: "kinetic_pixel:graycotton"
+				random_bonus: 6
+				type: "item"
+			}]
+			tasks: [{
+				id: "7336E404B7E4F8A1"
+				item: "kinetic_pixel:graycottonseed"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["2EB60D8D0A6250F8"]
+			description: [
+				"&lNitro Propellant&r is a powerful, volatile substance crafted by mixing Coal, Gray Cotton, Slime, and Gunpowder."
+				""
+				"This highly reactive compound is essential for crafting various &nBlueprints&r and &nAmmunition&r."
+				""
+				"Handle with care, as its explosive potential makes it a crucial yet dangerous material in firearm crafting."
+			]
+			id: "045D286359BC9F7A"
+			rewards: [{
+				id: "0EC62655D37F17C5"
+				item: "kinetic_pixel:nitropropellant"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FF4CF6DE8D7C35A"
+				item: "kinetic_pixel:nitropropellant"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			description: [
+				"Ammunition is critical for firing your weapons, and each firearm requires specific types of ammo."
+				""
+				"The type of ammo your weapon uses is clearly stated in the item tooltip, so always check before heading into battle."
+				""
+				"Keep a variety of ammo types on hand to suit different weapons and combat situations!"
+			]
+			id: "77948FABC7EE897D"
+			optional: true
+			rewards: [{
+				id: "226ED132A6EC1152"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "When out of ammunition, just hold your hand as if you were holding a gun, and say 'bang bang'"
+			tasks: [{
+				id: "0A114D326D3ACF84"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pointblank:shrapnel"
+							}
+							{
+								Count: 1b
+								id: "pointblank:whistle_nor"
+							}
+							{
+								Count: 1b
+								id: "pointblank:whistle_max"
+							}
+							{
+								Count: 1b
+								id: "pointblank:dart"
+							}
+							{
+								Count: 1b
+								id: "pointblank:cased_telescoped_ammunition"
+							}
+							{
+								Count: 1b
+								id: "pointblank:rocket"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Ammo"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["009EC2C427D9CC3F"]
+			description: [
+				"Attachments are customizable parts that enhance your firearms’ performance."
+				""
+				"&lScopes&r provide better zoom for long-range accuracy;"
+				""
+				"&lGrips&r reduce recoil and improve handling;"
+				""
+				"&lNozzles&r offer various effects, from boosting damage to reducing recoil or increasing accuracy."
+				""
+				"Experiment with different combinations to optimize your weapon for different combat situations!"
+			]
+			id: "1B5315C3A5C995EA"
+			optional: true
+			rewards: [{
+				id: "482C1FF81F906320"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "I’m not just aiming to be funny; I’m shooting for it!"
+			tasks: [{
+				id: "5433AD2A6EB99202"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pointblank:assaultgrip"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:assaultgripii"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:basicsight"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:crossnozzle_barrel"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:crystalreflector"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:doublecrystalreflector"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:exrail"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:highpressuresuppressor"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:highpressuresuppressorii"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:horizon"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:horizon_vol"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:polareye400"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:polareye600"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:polareye800"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:pressureaccelerator"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:sentinelgrip"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:sentinelgripii"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:sentinelgripiii"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:tanksuppressor"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "pointblank:turbulencesuppressor"
+								tag: { }
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Attachments"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Here all the default keybinds to play with your gun!"
+				""
+				"&l&6[ Y ]&r Attachment Mode"
+				"&l&6[ B ]&r Change Fire Mode"
+				"&l&6[ I ]&r Inspect Gun"
+				"&l&6[ R ]&r Reload Gun"
+				"&l&6[ V ]&r Switch Scope"
+				""
+				"&lNote&r: Some of them may &c&oconflict&r with other mods, check your settings."
+			]
+			disable_toast: true
+			id: "7AF3DF292E8A8518"
+			optional: true
+			rewards: [{
+				id: "295FD96FD49F8B3D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "791F69695B9AADFB"
+				title: "I'm ready to shot!"
+				type: "checkmark"
+			}]
+			title: "Keybinds"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"An intricate mold essential for forging custom firearm attachments."
+				""
+				"Whether you’re assembling a scope for keen accuracy or a nozzle to amplify firepower, the &lComponent Template&r is your gateway to mastery, bringing your firearms to the peak of performance!"
+			]
+			id: "009EC2C427D9CC3F"
+			rewards: [{
+				id: "6E7D69E37275C02F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "My friend was bragging his new 3D printer can print a gun."
+			tasks: [{
+				id: "15FC17A73755565D"
+				item: "kinetic_pixel:componenttemplate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+	]
+	title: "Kinetic Pixel"
+}

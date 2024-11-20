@@ -1,0 +1,232 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "useful_items"
+	group: ""
+	id: "4037B3585BB897FF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7C988EBDA47090AA"]
+			description: ["&aNature's Compass&r is a utility item that allows you to search for a biome's location anywhere in the world and view information about it. "]
+			id: "23A7BD59E3B24F24"
+			rewards: [{
+				id: "0A19242207D10140"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3EA91997C7CF297F"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C988EBDA47090AA"]
+			description: ["&aExplorer's Compass&r is an item that allows you to locate structures anywhere in the world."]
+			id: "41D600BFBA3DC95C"
+			rewards: [{
+				id: "23AB43D1996574F4"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "10025FA40C3AF00E"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C988EBDA47090AA"]
+			description: [
+				"With a &aConstruction Wand&r you can place multiple blocks (up to 1024) at once, extending your build on the side you're facing."
+				""
+				"If that's not enough: you can upgrade your wand with additional cores, allowing you to place a block behind the block you are facing, conjure blocks in mid air or destroy lots of blocks very fast."
+				""
+				"If you made a mistake don't worry, hold the &6wand option key&r (CTRL by default) &6sneak&r and &6right-click&r to &nundo the changes&r done!"
+			]
+			id: "53FC3DA1396E3C08"
+			rewards: [{
+				id: "32F5E8C1F46ADC8E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2A9BF2849BCA78D6"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "constructionwand:stone_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:iron_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:diamond_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:infinity_wand"
+								tag: {
+									wand_options: { }
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Construction Wands"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C988EBDA47090AA"]
+			description: [
+				"&aMega Torch&r prevents natural spawning of hostile monsters in a big radius (32 blocks) around the torch."
+				""
+				"&nMob Spawners should still work.&r"
+			]
+			id: "3A174EFC6BF655D6"
+			rewards: [{
+				id: "00318724C63F6ABB"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3740965EE76D28CC"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C988EBDA47090AA"]
+			description: [
+				"The &aTrowel&r is a tool added by Quark."
+				""
+				"Right-clicking it on a block will place a random block from the placer's hotbar."
+				""
+				"If you put the same block twice in the hotbar, it will have higher chance to being placed."
+			]
+			id: "630FAF4423671761"
+			rewards: [{
+				id: "786E4240EC66EFD8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "758FC64D5B413541"
+				item: "quark:trowel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C988EBDA47090AA"]
+			description: [
+				"&aTool Belt &ris a utility item that holds any non-stackable item."
+				""
+				"It starts with 2 stock slots, upgradeable to 9 by combining with tool pouches in an anvil!"
+			]
+			id: "18FD6001F6E0B31C"
+			rewards: [{
+				id: "0777C38435074401"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "48FF1B7EC38B2E0B"
+					item: "toolbelt:belt"
+					type: "item"
+				}
+				{
+					id: "4E1ABA092EEB613F"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C988EBDA47090AA"]
+			description: [
+				"The &aParaglider&r can be crafted by using some leathers and sticks, or you can find a &aDeku Leaf&r as loot in chests."
+				""
+				"While you're holding Paraglider midair, you fall more slowly, gliding over the land."
+			]
+			id: "74AA115F4D17E31E"
+			rewards: [{
+				id: "670C0C48A654E125"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "64941CDEA5E30A3C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "paraglider:paraglider"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "paraglider:deku_leaf"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	title: "Useful Items"
+}
