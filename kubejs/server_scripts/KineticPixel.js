@@ -15,14 +15,10 @@ ServerEvents.recipes((event) => {
     );
   }
 
-  event.remove('kinetic_pixel:magicpoweredfirearmblueprint');
-  event.remove('kinetic_pixel:enderalloyingot');
-  event.remove('kinetic_pixel:enderalloycompressionsheet');
-  event.remove('kinetic_pixel:bambooshell');
-
   blueprintShapedRecipe('kinetic_pixel:heatpoweredfirearmblueprint', 'kinetic_pixel:brasscompressionsheet');
   blueprintShapedRecipe('kinetic_pixel:pressurepoweredfirearmblueprint', 'kinetic_pixel:andesitealloycompressionsheet');
   blueprintShapedRecipe('kinetic_pixel:laboratorialfirearmblueprint', 'kinetic_pixel:specialsteelcompressionsheet');
+  blueprintShapedRecipe('kinetic_pixel:magicpoweredfirearmblueprint', 'kinetic_pixel:enderalloycompressionsheet');
 
   let incompleteComponentTemplate = 'kubejs:incomplete_component_template'
   event.recipes.create

@@ -11,7 +11,6 @@ JEIEvents.hideItems((event) => {
   event.hide('pointblank:gunmetal_nugget');
   event.hide('pointblank:workstation');
   event.hide('pointblank:printer');
-  event.hide('pointblank:hotmagiccore');
 
   global.pointBlankGuns.forEach((itemId) => {
     event.hide('pointblank:' + itemId);

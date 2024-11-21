@@ -11,7 +11,6 @@ ServerEvents.recipes((event) => {
   event.remove('pointblank:gunmetal_nugget');
   event.remove('pointblank:workstation');
   event.remove('pointblank:printer');
-  event.remove('pointblank:hotmagiccore');
 
   global.pointBlankGuns.forEach((itemId) => {
     event.remove('pointblank:' + itemId);
