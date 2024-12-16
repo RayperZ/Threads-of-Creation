@@ -45,17 +45,7 @@ itemDropChance = 0.0
 maxItemDropCount = 2
 #Enables bullets breaking glass
 bulletsBreakGlassEnabled = true
-#Modifier to adjust damage dealt by hitscan weapons.
+#Modifier to adjust damage dealt by hitscan weapons
 #Range: 0.1 ~ 10.0
 hitscanDamageModifier = 1.0
-#Modifier to adjust damage dealt by headshot.
-#Range: 1.0 ~ 10.0
-headshotDamageModifier = 3.0
-#Sets the crosshair type.
-#Allowed Values: DEFAULT, VANILLA, DISABLED
-crosshair = "DEFAULT"
-#Enables gore effects
-goreEnabled = true
-#Enables advanced integraiton with Iris shaders
-advancedIrisIntegrationEnabled = true
 
